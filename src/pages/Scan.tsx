@@ -67,7 +67,7 @@ const Scan = () => {
       // Create FormData for OCR API
       const formData = new FormData();
       formData.append('file', blob, 'image.jpg');
-      formData.append('apikey', 'c95b42842d88957');
+      formData.append('apikey', ''); // Add your API here
       formData.append('language', 'eng'); // OCR.space supports multiple languages
       formData.append('isOverlayRequired', 'false');
       formData.append('detectOrientation', 'true');
